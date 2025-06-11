@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌈 Restaurant Guide: South Beach Bar Montrose</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+        .rating-stars { color: #fbbf24; }
+        .price-badge { background: linear-gradient(45deg, #10b981, #059669); }
+        .distance-badge { background: linear-gradient(45deg, #3b82f6, #1d4ed8); }
+        .lgbtq-badge { background: linear-gradient(45deg, #ec4899, #be185d); }
+        @media print {
+            body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <div class="gradient-bg text-white py-8 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-2">🌈 Restaurant Guide</h1>
+            <h2 class="text-2xl font-light mb-4">South Beach Bar, Montrose</h2>
+            <p class="text-lg opacity-90">Perfect dining options for your group of 10-12 friends</p>
+            <div class="mt-4 text-sm opacity-80">
+                <i class="fas fa-map-marker-alt mr-2"></i>All restaurants within 5 miles of 810 Pacific St, Houston, TX
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Recommendations Banner -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 mx-4 mt-6 rounded-r-lg">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-lg font-semibold text-yellow-800 mb-2">
+                <i class="fas fa-star mr-2"></i>Top Recommendations for Your Group
+            </h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-yellow-700">
+                <div><strong>Full Experience:</strong> Start at Refuge → Dinner at 93' Til</div>
+                <div><strong>Interactive Fun:</strong> BORI for Korean BBQ group cooking</div>
+                <div><strong>Casual & Affordable:</strong> Cuchara or Niko Niko's</div>
+                <div><strong>Something Special:</strong> Koi for sushi or Ostia for romance</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Restaurant Cards -->
+    <div class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid gap-6">
+            
+            <!-- Postino Montrose -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🍷 Postino Montrose</h3>
+                            <p class="text-lg text-gray-600 font-medium">Wine & Small Plates</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$20-30</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.4 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">LGBTQ+ Friendly</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.7</span>
+                        <span class="text-gray-500 ml-2">(1,139 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Bruschetta boards, wine, relaxed vibes. Perfect for large groups with outdoor seating and just a 2-minute walk away!</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-users mr-2"></i>Great for Groups
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>2-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(713) 388-6767
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 93' Til -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🥩 93' Til</h3>
+                            <p class="text-lg text-gray-600 font-medium">Elevated Comfort Food</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$$</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">1.2 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Trans Safespace</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.6</span>
+                        <span class="text-gray-500 ml-2">(585 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Refined comfort food, cocktails, vinyl record ambiance. Super welcoming environment with transgender safespace designation.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-heart mr-2"></i>LGBTQ+ Friendly
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-car mr-2"></i>5-min ride
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(281) 846-6405
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuchara -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🌮 Cuchara</h3>
+                            <p class="text-lg text-gray-600 font-medium">Creative Mexican</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$20-30</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.5 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Women-Owned</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★☆</div>
+                        <span class="text-lg font-semibold text-gray-700">4.3</span>
+                        <span class="text-gray-500 ml-2">(4,174 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Creative Mexican dishes with whimsical murals and amazing cocktails. Women-owned business with vibrant atmosphere.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-palette mr-2"></i>Artistic Vibe
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>3-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(713) 942-0000
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Koi -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🍣 Koi</h3>
+                            <p class="text-lg text-gray-600 font-medium">Upscale Sushi</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$50-100</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.3 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">LGBTQ+ Friendly</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.8</span>
+                        <span class="text-gray-500 ml-2">(499 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Fresh sushi, intimate atmosphere, cocktails. Perfect for special occasions or when you want something elevated.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-star mr-2"></i>Premium Experience
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>2-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(832) 645-0008
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lúa Viet Kitchen -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🍜 Lúa Viet Kitchen</h3>
+                            <p class="text-lg text-gray-600 font-medium">Vietnamese Comfort</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$10-20</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">1.8 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Women-Owned</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★☆</div>
+                        <span class="text-lg font-semibold text-gray-700">4.5</span>
+                        <span class="text-gray-500 ml-2">(917 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Farm-fresh Vietnamese cuisine, pho, healthy options. Great for budget-conscious groups wanting quality food.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-leaf mr-2"></i>Fresh & Healthy
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-car mr-2"></i>6-min ride
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(346) 227-7047
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BORI - Montrose -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🔥 BORI - Montrose</h3>
+                            <p class="text-lg text-gray-600 font-medium">Korean BBQ</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$50-100</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.8 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Group Fun</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.6</span>
+                        <span class="text-gray-500 ml-2">(114 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Premium Korean BBQ with tableside grilling. Perfect interactive dining experience where everyone can cook together!</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-fire mr-2"></i>Interactive Cooking
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-car mr-2"></i>4-min ride
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(346) 980-8110
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ostia -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🍝 Ostia</h3>
+                            <p class="text-lg text-gray-600 font-medium">Italian Elegance</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$50-100</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">1.5 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Romantic</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★☆</div>
+                        <span class="text-lg font-semibold text-gray-700">4.2</span>
+                        <span class="text-gray-500 ml-2">(525 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Seasonal Mediterranean dishes in a plant-filled venue with outdoor seating. Upscale experience perfect for special occasions.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-seedling mr-2"></i>Plant-Filled Venue
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-car mr-2"></i>6-min ride
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(713) 324-9288
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graffiti Raw -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🌿 Graffiti Raw</h3>
+                            <p class="text-lg text-gray-600 font-medium">Californian Coastal</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$50-100</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.6 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Trans Safespace</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★☆</div>
+                        <span class="text-lg font-semibold text-gray-700">4.4</span>
+                        <span class="text-gray-500 ml-2">(326 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Californian cuisine and seafood with gender-neutral restrooms. Trendy, inclusive atmosphere perfect for the community.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-fish mr-2"></i>Fresh Seafood
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>3-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(713) 750-9590
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Traveler's Table -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🌍 Traveler's Table</h3>
+                            <p class="text-lg text-gray-600 font-medium">Global Eclectic</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$30-50</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.3 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">LGBTQ+ Friendly</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.6</span>
+                        <span class="text-gray-500 ml-2">(2,406 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Global fusion cuisine including pad thai and Jamaican jerk pork. Diverse menu perfect for groups with varied tastes.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-globe mr-2"></i>Global Fusion
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>2-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(832) 409-5785
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Niko Niko's -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🥙 Niko Niko's</h3>
+                            <p class="text-lg text-gray-600 font-medium">Casual Greek</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">$10-20</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">0.8 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Family-Friendly</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.6</span>
+                        <span class="text-gray-500 ml-2">(6,263 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Classic Greek fare with hearty portions and gyros. Budget-friendly option that's perfect for large groups.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-dollar-sign mr-2"></i>Budget-Friendly
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-walking mr-2"></i>4-min walk
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(713) 528-4976
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refuge -->
+            <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                <div class="p-6">
+                    <div class="flex flex-wrap items-start justify-between mb-4">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">🍸 Refuge</h3>
+                            <p class="text-lg text-gray-600 font-medium">Cocktail & Small Plates</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-2 md:mt-0">
+                            <span class="price-badge text-white px-3 py-1 rounded-full text-sm font-medium">Cocktails</span>
+                            <span class="distance-badge text-white px-3 py-1 rounded-full text-sm font-medium">1.0 mi</span>
+                            <span class="lgbtq-badge text-white px-3 py-1 rounded-full text-sm font-medium">Trans Safespace</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-3">
+                        <div class="rating-stars text-lg mr-2">★★★★★</div>
+                        <span class="text-lg font-semibold text-gray-700">4.8</span>
+                        <span class="text-gray-500 ml-2">(165 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-4">Craft cocktails and coffee by day. Perfect for pre or post-dinner drinks with a trendy, inclusive atmosphere.</p>
+                    
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-cocktail mr-2"></i>Craft Cocktails
+                        </div>
+                        <div class="flex items-center text-blue-600">
+                            <i class="fas fa-car mr-2"></i>5-min ride
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-phone mr-2"></i>(281) 888-6121
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-gray-800 text-white py-8 px-4 mt-12">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4">Ready to Explore Montrose? 🌈</h3>
+            <p class="text-lg mb-4">All restaurants are LGBTQ+ friendly and perfect for groups!</p>
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+                <div>
+                    <h4 class="font-semibold mb-2">Walking Distance (0-0.5 mi)</h4>
+                    <p>Postino, Koi, Traveler's Table, Cuchara, Graffiti Raw</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Short Ride (0.5-1.5 mi)</h4>
+                    <p>Niko Niko's, BORI, Refuge, 93' Til, Ostia</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Quick Drive (1.5+ mi)</h4>
+                    <p>Lúa Viet Kitchen</p>
+                </div>
+            </div>
+            <div class="mt-6 text-gray-400">
+                <p>Starting point: South Beach Bar, 810 Pacific St, Houston, TX 77006</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
